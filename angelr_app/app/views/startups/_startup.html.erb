@@ -1,0 +1,40 @@
+<section class="name cf">
+  <div class="fl w-70">
+    <h1><%= @startup.name %></h1>
+    <h3><%= @startup.short_desc %></h3>
+  </div>
+  <div class="fl w-30">
+    <a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-custom-blue" href="#">Send a message</a>
+  </div>
+</section>
+<section class="about cf">
+  <div class="fl w-60">
+    <h1><%= @startup.video_url %></h1>
+  </div>
+  <div class="fl w-40 br4 br--right bg-white">
+    <h4>What we do...</h4>
+    <p><%= @startup.long_desc %></p>
+    <%= link_to "Visit Website", @startup.website_url, class: "link link-external" %>
+  </div>
+</section>
+<section class="gallery cf tc br4 bg-white pa4 mv4 shadow-1">
+  <%= render @galleries %>
+</section>
+<section class="notes cf tc br4 bg-white pa4 mv4 shadow-1">
+  <div class="note-founded fl w-25 ph3">
+    <h4 class="note-header ttu br3 bg-custom-green pa3 ma3">Founded</h4>
+    <%= @startup.note_founded %>
+  </div>
+  <div class="note-team-size fl w-25 ph3">
+    <h4 class="note-header ttu br3 bg-custom-orange pa3 ma3">Team size</h4>
+    <%= @startup.note_team_size %>
+  </div>
+  <div class="note-stage fl w-25 ph3">
+    <h4 class="note-header ttu br3 bg-custom-blue pa3 ma3">Stage</h4>
+    <%= @startup.note_stage %>
+  </div>
+  <div class="note-traction fl w-25 ph3">
+    <h4 class="note-header ttu br3 bg-custom-violet pa3 ma3">Traction</h4>
+    <%= @startup.note_traction %>
+  </div>
+</section>

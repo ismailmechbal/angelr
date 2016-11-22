@@ -1,0 +1,14 @@
+<header class="header--<%= css_class_name %> fixed cf w-100 ph4 pv4">
+  <nav class="fl w-70 tc">
+    <a class="link active mr3" href="#" title="Overview">Overview</a>
+    <a class="link mr3" href="#" title="Founders">Founders</a>
+    <a class="link mr3" href="#" title="Team">Team</a>
+    <a class="link mr3" href="#" title="Facts">Facts</a>
+    <a class="link" href="#" title="Deck">Deck</a>
+  </nav>
+  <nav class="fl w-30">
+    <% if user_signed_in? %>
+      <%= current_user.email %>
+    <% end %>
+  </nav>
+</header>

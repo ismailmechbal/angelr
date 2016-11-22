@@ -1,0 +1,27 @@
+<div class="fl w-25 ph3">
+  <img src="<%= render team.attachments %>" class="br-100 h4 w4" alt="<%= team.name %>">
+  <h4 class="name">
+    <%= team.name %>
+  </h4>
+  <h4 class="role fw2">
+    <%= team.role %>
+  </h4>
+  <ul class="links-social-media pa0">
+    <li class="dib w1">
+      <%= link_to team.facebook_url do %>
+        <%= image_tag('icons/facebook.svg') %>
+      <% end %>
+    </li>
+    <li class="dib w1">
+      <%= link_to team.twitter_url do %>
+        <%= image_tag('icons/twitter.svg') %>
+      <% end %>
+    </li>
+    <li class="dib w1">
+      <%= link_to team.linkedin_url do %>
+        <%= image_tag('icons/linkedin.svg') %>
+      <% end %>
+    </li>
+  </ul>
+  </div>
+</div>
