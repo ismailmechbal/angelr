@@ -1,0 +1,17 @@
+.slick-slider {
+  .slick-prev {
+    left: 10px;
+  }
+  .slick-next {
+    right: 25px;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: #000;
+    font-size: 34px;
+    opacity: 1;
+  }
+  .slick-initialized .slick-slide {
+    width: 170px !important;
+  }
+}
