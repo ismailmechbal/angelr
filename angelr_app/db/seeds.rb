@@ -14,7 +14,7 @@ Startup.create(
   short_desc: "Marketplace for craftsmen",
   long_desc: "It is with love and devotion of handcrafted and designed items Weavler exist. We know launching an online store feels a bit like opening a store on a hectic street, how do you get people to enter your store? Weavler will give you tutorials and all the tools you need to reach out to your customers! Join us and you’ll get to be a part of our journey to put you on the map.",
   website_url: "https://www.weavler.it",
-  video_url: "https://youtu.be/DB1zxKK2je8",
+  video_url: "https://www.youtube.com/embed/rewNSngzwS4",
   note_founded: "The company was founded in 2013 and our MVP was launched in 2014",
   note_team_size: "We are a total of 6 in the team. 4 are full time, 1 half time and the last is a consultant",
   note_stage: "We have launched a beta and gotten our first revenue",
@@ -102,7 +102,7 @@ Attachment.create([
     attachable_type: 'Deck',
     attachable_id: "1",
     attachment: File.new("#{Rails.root}/public/uploads/deck/01/weavler-1.pdf")
-  }
+  },
   {
     attachable_type: 'Gallery',
     attachable_id: "1",

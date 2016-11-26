@@ -1,4 +1,29 @@
+@import "base/variables";
 body {
   background: #e2e2e2;
   color: #1d1d1d;
+  font-family: 'avenir next', avenir, sans-serif;
+}
+/* Links */
+a {
+  color: $custom-blue;
+}
+/* Backgrounds */
+.custom-green {
+  background: $custom-green;
+}
+.custom-orange {
+  background: $custom-orange;
+}
+.custom-blue {
+  background: $custom-blue;
+}
+.custom-violet {
+  background: $custom-violet;
+}
+/* Icons */
+.link-external {
+  svg {
+    width: 16px;
+  }
 }
