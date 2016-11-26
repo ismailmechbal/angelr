@@ -64,6 +64,15 @@ Gallery.create([
   },
   {
     startup_id: 1
+  },
+  {
+    startup_id: 1
+  },
+  {
+    startup_id: 1
+  },
+  {
+    startup_id: 1
   }
 ])
 Deck.create([
@@ -117,5 +126,20 @@ Attachment.create([
     attachable_type: 'Gallery',
     attachable_id: "3",
     attachment: File.new("#{Rails.root}/public/uploads/gallery/01/weavler-3.png")
+  },
+  {
+    attachable_type: 'Gallery',
+    attachable_id: "4",
+    attachment: File.new("#{Rails.root}/public/uploads/gallery/01/weavler-4.png")
+  },
+  {
+    attachable_type: 'Gallery',
+    attachable_id: "5",
+    attachment: File.new("#{Rails.root}/public/uploads/gallery/01/weavler-5.png")
+  },
+  {
+    attachable_type: 'Gallery',
+    attachable_id: "6",
+    attachment: File.new("#{Rails.root}/public/uploads/gallery/01/weavler-6.png")
   }
 ])
